@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+  - Player 1
+  - Player 2
+  - PlatformRightLeft
+  - PlatformLeftRight
+  - PlatformUpDown
+  - PlatformDownUp
   layers:
   - Default
   - TransparentFX
