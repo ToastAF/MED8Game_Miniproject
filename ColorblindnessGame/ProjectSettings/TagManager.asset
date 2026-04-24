@@ -11,6 +11,7 @@ TagManager:
   - PlatformLeftRight
   - PlatformUpDown
   - PlatformDownUp
+  - Goal
   layers:
   - Default
   - TransparentFX
