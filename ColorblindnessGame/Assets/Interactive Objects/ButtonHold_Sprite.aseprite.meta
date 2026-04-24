@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f74fda79bd859f147ace40784612302d
+guid: f7395fb5587edf34b918c5f9c79e0203
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Frame_0
+  - name: ButtonHold_Sprite
     originalName: 
-    pivot: {x: 0.4901961, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 51
-      height: 9
-    spriteID: 7aac65bc81a526742b2be39bebd60b47
+      width: 64
+      height: 8
+    spriteID: be1c1fdc70ca8ff43bb9455e8a8915da
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 3381773146
+      value0: 1764329503
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Button_Sprite
+    name: ButtonHold_Sprite
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Button_Sprite
+    - name: ButtonHold_Sprite
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 7
+        x: 0
         y: 0
-        width: 51
-        height: 9
-      spriteId: 7aac65bc81a526742b2be39bebd60b47
+        width: 64
+        height: 8
+      spriteId: be1c1fdc70ca8ff43bb9455e8a8915da
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -182,4 +182,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 32}
-  previousTextureSize: {x: 64, y: 32}
+  previousTextureSize: {x: 128, y: 16}
