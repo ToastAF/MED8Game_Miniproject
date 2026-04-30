@@ -6,20 +6,25 @@ public class MoveScript : MonoBehaviour
     Rigidbody2D rb;
     Vector2 movementVector;
     SpriteRenderer spriteRenderer;
+    Animator anim;
 
     public float speed = 1;
     public float jumpForce = 5;
 
     public bool canJump = false;
+    public bool isJumping = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
+        anim.SetFloat("VelocityX", movementVector.magnitude);
+
         if(movementVector.magnitude > .2f)
         {
             rb.AddForce(new Vector2(movementVector.x * speed * Time.deltaTime, 0), ForceMode2D.Impulse); // Move Player
@@ -44,8 +49,10 @@ public class MoveScript : MonoBehaviour
     {
         if (canJump)
         {
-            rb.AddForce(Vector2.up * jumpForce);
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             canJump = false;
+            isJumping = true;
+            anim.SetBool("Jumping", true);
         }
     }
 
@@ -54,6 +61,8 @@ public class MoveScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             canJump = true;
+            isJumping = false;
+            anim.SetBool("Jumping", false);
         }
     }
 }
