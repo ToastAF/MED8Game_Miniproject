@@ -11,12 +11,17 @@ public class SceneManagement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void StartGame()
     {
-        SceneManager.LoadScene("Ronja Scene 2");
+        SceneManager.LoadScene("Jakob Scene");
     }
 
     public void ExitGame()
     {
         Application.Quit();
+    }
+
+    public void GoToMenuScreen()
+    {
+        SceneManager.LoadScene("MenuScene");
     }
 
     private int currentIndex = 0;

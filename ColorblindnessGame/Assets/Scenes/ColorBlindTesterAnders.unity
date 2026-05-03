@@ -226,7 +226,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1340132138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 1774383122}
   - component: {fileID: 1774383121}
   - component: {fileID: 1774383120}
+  - component: {fileID: 1774383124}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -396,6 +397,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1774383124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774383119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 750c8eb15591b3d43b85c16523060d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorBlindCamera
+  mode: 0
+  enabled: 1
 --- !u!1 &2017764183
 GameObject:
   m_ObjectHideFlags: 0
