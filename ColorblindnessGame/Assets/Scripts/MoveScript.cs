@@ -10,6 +10,7 @@ public class MoveScript : MonoBehaviour
 
     public float speed = 1;
     public float jumpForce = 5;
+    public float groundRayLength = 1.25f;
 
     public bool canJump = false;
     public bool isJumping = false;
@@ -23,6 +24,8 @@ public class MoveScript : MonoBehaviour
 
     void Update()
     {
+        //Debug.DrawRay(transform.position, Vector2.down * 1.5f, Color.red);
+
         anim.SetFloat("VelocityX", movementVector.magnitude);
 
         if(movementVector.magnitude > .2f)
@@ -38,6 +41,12 @@ public class MoveScript : MonoBehaviour
         {
             spriteRenderer.flipX = false;
         }
+
+    }
+
+    bool GetRaycast()
+    {
+        return Physics2D.Raycast(transform.position, Vector2.down, groundRayLength, LayerMask.GetMask("Ground"));
     }
 
     public void OnMove(InputValue input)
@@ -47,8 +56,8 @@ public class MoveScript : MonoBehaviour
 
     public void OnJump(InputValue input)
     {
-        if (canJump)
-        {
+        if (GetRaycast())
+        { 
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             canJump = false;
             isJumping = true;
@@ -56,13 +65,8 @@ public class MoveScript : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            canJump = true;
-            isJumping = false;
-            anim.SetBool("Jumping", false);
-        }
+        anim.SetBool("Jumping", false);
     }
 }
