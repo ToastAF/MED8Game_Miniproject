@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: d92eefffe574f1241af63dfa52569398
+guid: ea6f15f8fd744344c8f0d4b21003c0f3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6391582411394987839
-    second: tutorial3_0
+      213: 7133630996205692431
+    second: wasdW_0
+  - first:
+      213: -5823280030776097439
+    second: wasdW_1
+  - first:
+      213: 7678857018492484047
+    second: wasdW_2
+  - first:
+      213: 6274218047624916481
+    second: wasdW_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +105,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tutorial3_0
+      name: wasdW_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 967
-        height: 735
+        x: 179
+        y: 266
+        width: 154
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3735dfc65673b850800000000000000
-      internalID: 6391582411394987839
+      spriteID: f066e8f689fbff260800000000000000
+      internalID: 7133630996205692431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdW_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 152
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16507f14aad8f2fa0800000000000000
+      internalID: -5823280030776097439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdW_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 75
+        width: 154
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9724426c7c09a60800000000000000
+      internalID: 7678857018492484047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasdW_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 75
+        width: 148
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e27047210821750800000000000000
+      internalID: 6274218047624916481
       vertices: []
       indices: 
       edges: []
@@ -135,7 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tutorial3_0: 6391582411394987839
+      wasdW_0: 7133630996205692431
+      wasdW_1: -5823280030776097439
+      wasdW_2: 7678857018492484047
+      wasdW_3: 6274218047624916481
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

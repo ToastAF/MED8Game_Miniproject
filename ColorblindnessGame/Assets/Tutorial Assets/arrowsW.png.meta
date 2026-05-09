@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 3fdeca3c53eb9b04ea9c0ae73c0d7659
+guid: 92739e9daa60a6c42bd649e53591c417
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4302285031048887679
-    second: tutorial1_0
+      213: 3377832554458785725
+    second: arrowsW_0
+  - first:
+      213: 1719258635507350367
+    second: arrowsW_1
+  - first:
+      213: -3948921900832650874
+    second: arrowsW_2
+  - first:
+      213: 2699932081235062369
+    second: arrowsW_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,7 +83,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -96,17 +105,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tutorial1_0
+      name: arrowsW_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 972
-        height: 708
+        x: 178
+        y: 267
+        width: 156
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7d3626f079c4bb30800000000000000
-      internalID: 4302285031048887679
+      spriteID: db7244fcfc870ee20800000000000000
+      internalID: 3377832554458785725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowsW_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 155
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b3076be980cd710800000000000000
+      internalID: 1719258635507350367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowsW_2
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 88
+        width: 156
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6890c17147c9239c0800000000000000
+      internalID: -3948921900832650874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrowsW_3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 88
+        width: 155
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e62bb4ce5187520800000000000000
+      internalID: 2699932081235062369
       vertices: []
       indices: 
       edges: []
@@ -135,7 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tutorial1_0: 4302285031048887679
+      arrowsW_0: 3377832554458785725
+      arrowsW_1: 1719258635507350367
+      arrowsW_2: -3948921900832650874
+      arrowsW_3: 2699932081235062369
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
