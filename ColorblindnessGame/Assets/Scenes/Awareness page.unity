@@ -693,7 +693,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: -281}
+  m_AnchoredPosition: {x: 3, y: -95}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &117895182
@@ -2799,7 +2799,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -59, y: -318}
+  m_AnchoredPosition: {x: -59, y: -132}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &966750498
@@ -3245,15 +3245,15 @@ RectTransform:
   m_GameObject: {fileID: 1195570271}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 4.81, y: 4.81, z: 4.81}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 810894398}
   m_Father: {fileID: 1369505509}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1033, y: -472}
+  m_AnchoredPosition: {x: 341, y: -400}
   m_SizeDelta: {x: 175, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195570273
@@ -4201,20 +4201,12 @@ MonoBehaviour:
     experience everyday life, from reading signs and distinguishing colors to playing
     games designed without accessibility in mind.
 
-    
 
-    This game was created
-    to raise awareness of color vision deficiency through a cooperative gameplay
-    experience where the characters perceive the world differently from the other.
-    Through play, we hope to encourage understanding, empathy, and more accessible
-    design choices in games and everyday life. Not everyone sees the world the same
-    way.
-
-
-    You are playing as two colorblind people, who have gotten themselves
-    trapped in a dungeon. You must make them work together by standing on buttons
-    that unlocks things for the other character. Look out for shapes and their amount,
-    you gotta put in the correct order at the exit to escape.'
+    This game was created to
+    raise awareness of color vision deficiency through a cooperative gameplay experience
+    where the characters perceive the world differently from the other. Through play,
+    we hope to encourage understanding, empathy, and more accessible design choices
+    in games and everyday life. Not everyone sees the world the same way.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 926a8b22b54a6ee4fb294e7bbc60ee3b, type: 2}
   m_sharedMaterial: {fileID: 4609658456184056928, guid: 926a8b22b54a6ee4fb294e7bbc60ee3b, type: 2}
