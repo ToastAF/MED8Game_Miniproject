@@ -14,6 +14,11 @@ public class SceneManagement : MonoBehaviour
         SceneManager.LoadScene("Jakob Scene");
     }
 
+    public void AwarenessScene()
+    {
+        SceneManager.LoadScene("Awareness page");
+    }
+
     public void ExitGame()
     {
         Application.Quit();
