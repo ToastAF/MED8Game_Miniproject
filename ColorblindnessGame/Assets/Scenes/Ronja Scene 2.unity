@@ -2688,7 +2688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1308949111108820260, guid: 33148a7f4a0fd0642a4178523e4194fe, type: 3}
       propertyPath: orthographic size
-      value: 5
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1308949111108820260, guid: 33148a7f4a0fd0642a4178523e4194fe, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -2716,11 +2716,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6872161066314323596, guid: 33148a7f4a0fd0642a4178523e4194fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.03
+      value: 0.209
       objectReference: {fileID: 0}
     - target: {fileID: 6872161066314323596, guid: 33148a7f4a0fd0642a4178523e4194fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13
+      value: 13.025
       objectReference: {fileID: 0}
     - target: {fileID: 6872161066314323596, guid: 33148a7f4a0fd0642a4178523e4194fe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2753,6 +2753,22 @@ PrefabInstance:
     - target: {fileID: 6872161066314323596, guid: 33148a7f4a0fd0642a4178523e4194fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216822053298134646, guid: 33148a7f4a0fd0642a4178523e4194fe, type: 3}
+      propertyPath: m_Size.x
+      value: 0.41925094
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216822053298134646, guid: 33148a7f4a0fd0642a4178523e4194fe, type: 3}
+      propertyPath: m_Size.y
+      value: 1.3776646
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216822053298134646, guid: 33148a7f4a0fd0642a4178523e4194fe, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.10809235
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216822053298134646, guid: 33148a7f4a0fd0642a4178523e4194fe, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.31116772
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22990,6 +23006,22 @@ PrefabInstance:
       propertyPath: groundRayLength
       value: 1.75
       objectReference: {fileID: 0}
+    - target: {fileID: 7134911283020903985, guid: 184e6813705c72b4fb7825ba55447cc7, type: 3}
+      propertyPath: m_Size.x
+      value: 0.30555487
+      objectReference: {fileID: 0}
+    - target: {fileID: 7134911283020903985, guid: 184e6813705c72b4fb7825ba55447cc7, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4498796
+      objectReference: {fileID: 0}
+    - target: {fileID: 7134911283020903985, guid: 184e6813705c72b4fb7825ba55447cc7, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.049076796
+      objectReference: {fileID: 0}
+    - target: {fileID: 7134911283020903985, guid: 184e6813705c72b4fb7825ba55447cc7, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.27506018
+      objectReference: {fileID: 0}
     - target: {fileID: 7175606156565397301, guid: 184e6813705c72b4fb7825ba55447cc7, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -23000,7 +23032,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8228299203253772216, guid: 184e6813705c72b4fb7825ba55447cc7, type: 3}
       propertyPath: orthographic size
-      value: 5
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8228299203253772216, guid: 184e6813705c72b4fb7825ba55447cc7, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -24114,7 +24146,7 @@ Transform:
   m_GameObject: {fileID: 473091989}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.1, y: 13, z: 0}
+  m_LocalPosition: {x: 2.99, y: 14.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35109,7 +35141,7 @@ Transform:
   m_GameObject: {fileID: 1222821601}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.89, y: 13, z: 0}
+  m_LocalPosition: {x: -3.89, y: 13.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39092,7 +39124,7 @@ TilemapCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 1
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.03, y: -0.52}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
