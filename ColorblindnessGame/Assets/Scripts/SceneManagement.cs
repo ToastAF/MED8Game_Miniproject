@@ -11,7 +11,7 @@ public class SceneManagement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void StartGame()
     {
-        SceneManager.LoadScene("Jakob Scene");
+        SceneManager.LoadScene("Ronja Scene 2");
     }
 
     public void AwarenessScene()

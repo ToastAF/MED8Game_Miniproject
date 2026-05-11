@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MovingPlatform : MonoBehaviour
+public class MovingPlatform : MonoBehaviour, Resettable
 {
     public float speed = 2f;
     public float moveDistance = 1.5f;
@@ -10,6 +10,7 @@ public class MovingPlatform : MonoBehaviour
 
     bool isMoving = false;
     bool movingToTarget = false;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -64,5 +65,12 @@ public class MovingPlatform : MonoBehaviour
     {
         movingToTarget = false;
         isMoving = true;
+    }
+
+    public void Death()
+    {
+        isMoving = false;
+        movingToTarget = false;
+        transform.position = startPos;
     }
 }

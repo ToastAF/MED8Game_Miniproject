@@ -6,11 +6,11 @@ public class PhsyicButton : MonoBehaviour
     public bool HoldDown = false;
 
     //Puzzle ting
-    public bool isPuzzle = false;
-    public int triggerType = 0;
-    public CominationLock lockScript;
+    //public bool isPuzzle = false;
+    //public int triggerType = 0;
+    //public CominationLock lockScript;
 
-    public GameObject Door;
+    //public GameObject Door;
 
     public Sprite PressedDownSprite;
     public Sprite PressedUpSprite;
@@ -27,7 +27,7 @@ public class PhsyicButton : MonoBehaviour
         {
             spriteRenderer.sprite = PressedDownSprite;
             isPressed = true;
-            Door.SetActive(false);
+            //Door.SetActive(false);
         }
     }
 
@@ -37,27 +37,13 @@ public class PhsyicButton : MonoBehaviour
         {
             if (HoldDown)
             {
+                spriteRenderer.sprite = PressedDownSprite;
+                isPressed = false;
+            }
+            else
+            {
                 spriteRenderer.sprite = PressedUpSprite;
                 isPressed = false;
-                Door.SetActive(true);
-
-                if (isPuzzle) //logik til puzzle
-                {
-                    switch (triggerType)
-                    {
-                        case 0:
-                            lockScript.ChangeDigit1();
-                            break;
-                        case 1:
-                            lockScript.ChangeDigit2();
-                            break;
-                        case 2:
-                            lockScript.ChangeDigit3();
-                            break;
-                        default:
-                            break;
-                    }
-                }
             }
         }
     }
